@@ -1,0 +1,247 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ana Beatriz - Esteticista e Designer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --cor-principal: #a4cbb3;
+      --cor-secundaria: #1c5b4e;
+      --cor-bolinha: #1c5b4e;
+    }body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--cor-secundaria);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding: 10px;
+}
+
+.logo img {
+  height: 235%;
+  max-height: 450px;
+  object-fit: contain;
+}
+
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border: 4px solid var(--cor-principal);
+}
+
+.foto-perfil img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-contato {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--cor-principal);
+  color: white;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.galeria img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+.sobre {
+  padding: 20px;
+  background-color: var(--cor-secundaria);
+  color: #ffffff;
+}
+
+.lista-servicos {
+  padding: 20px;
+}
+
+.categoria {
+  margin-bottom: 20px;
+}
+
+.categoria h3 {
+  border-bottom: 2px solid var(--cor-bolinha);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: var(--cor-principal);
+}
+
+.categoria ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categoria li {
+  margin: 8px 0;
+  position: relative;
+  padding-left: 25px;
+  color: #333;
+}
+
+.categoria li::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: var(--cor-bolinha);
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 8px;
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="banner2.png" alt="Logo Ana Beatriz">
+    </div>
+    <div class="foto-perfil">
+      <img src="perfil.jpg" alt="Foto de Perfil">
+    </div>
+  </header>  <div class="info-contato">
+    <p>@annabeatriz.esteticista | (19) 97423-1060 | Nova Odessa SP</p>
+  </div>  <section class="galeria">
+    <img src="Imagem do WhatsApp de 2025-03-10 à(s) 16.21.31_f1d5f0fc.jpg" alt="Foto 1">
+    <img src="Imagem do WhatsApp de 2025-03-10 à(s) 16.21.32_76c41ac1.jpg" alt="Foto 2">
+    <img src="Imagem do WhatsApp de 2025-03-10 à(s) 16.21.33_1b1bd9c8.jpg" alt="Foto 3">
+    <img src="Imagem do WhatsApp de 2025-03-10 à(s) 16.21.33_a3037602.jpg" alt="Foto 4">
+    <img src="Imagem do WhatsApp de 2025-03-10 à(s) 16.21.32_a97fb937.jpg" alt="Foto 5">
+    <img src="Imagem do WhatsApp de 2025-03-10 à(s) 16.21.32_76c41ac1.jpg" alt="Foto 6">
+  </section>  <section class="sobre">
+    <h2> Muito prazer</h2>
+    <p> Eu sou Ana Beatriz!
+        Esteticista apaixonada por cuidar da sua pele com técnica, leveza e muito carinho.
+         </p>
+  </section>  <section class="lista-servicos">
+
+
+
+                           
+               <p>Aqui no meu espaço, ofereço uma estética acolhedora, com foco em saúde, bem-estar e autoestima.
+                Conheça os procedimentos que realizo:</p>
+
+
+
+    <div class="categoria">
+      <h3>FACIAL</h3>
+      <ul>
+        <li>Limpeza de Pele</li>
+        <li>Dermaplaning</li>
+        <li>Microagulhamento</li>
+        <li>Revitalização</li>
+        <li>Tratamento para Acne</li>
+        <li>Tratamento para Manchas / Melasma</li>
+        <li>Tratamento personalizados (Avaliação + Plano de Tratamento)</li>
+        <li>Epilação Facial</li>
+        <li>Tratamento Labial - Hidragloss</li>
+               
+        <h3>CORPORAL</h3>
+        <ul>
+          <li>Drenagem Linfática</li>
+          <li>Massagem Modeladora</li>
+          <li>Massagem Relaxante</li>
+          <li>Microagulhamento Corporal (Celulite, Estria e Ativação do Colágeno)</li>
+          <li>Tratamento Personalizados</li>
+          <LI>Detox Corporal</LI>
+        </ul>
+      </div>
+
+
+      </ul>
+    </div>
+
+    <div class="categoria">
+      <h3>EMBELEZAMENTO</h3>
+      <ul>
+        <li>Extensão de Cilios</li>
+        <li>Lash Lifting</li>
+        <li>Desingn com Henna</li>
+        <li>Micropigmentação de Sobrencelha</li>
+        <li>Micropigmentação Labial</li> 
+                     
+        
+
+
+
+    </section>  <section class="sobre">
+       
+        <p> 
+            Cada tratamento é pensado com exclusividade, respeitando a necessidade da sua pele em cada fase.
+            
+            Seja bem-vinda ao seu momento de cuidado!
+            
+             </p>
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+  </section>  <a href="https://wa.me/5519974231060" class="whatsapp-btn" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</body>
+</html>
+            

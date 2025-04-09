@@ -1,0 +1,23 @@
+#painel-sobre{
+	margin-top: 20px;
+}
+
+.titulo-clientes{
+	background-color: #76828d;
+	padding: 10px;
+	
+
+
+
+
+	body {
+		background-image: url('img/foto1.jpeg'); /* Caminho da imagem */
+		background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+		background-position: center; /* Centraliza a imagem */
+		background-repeat: no-repeat; /* Evita repetição da imagem */
+	}
+	
+
+
+
+}
